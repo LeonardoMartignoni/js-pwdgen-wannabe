@@ -12,6 +12,9 @@ let favouriteColor = prompt("Inserisci il tuo colore preferito");
 
 // Concateno le stringhe
 const passwordGenerated = userName + userSurname + favouriteColor + "23";
+
+// Concatenazione alternativa:
+// const passwordGenerated = `${userName}${userSurname}${favouriteColor}23`
 // console.log("Passw: " + passwordGenerated);
 
 // Inserisco la password generata nel paragrafo
